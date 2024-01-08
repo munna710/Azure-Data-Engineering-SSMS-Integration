@@ -22,4 +22,11 @@ The architecture consists of several components including an on-prem SQL Server 
 - **Azure Active Directory**: Offers identity and access management services to secure resources.
 - **Azure Key Vault**: Used to safeguard cryptographic keys and other secrets used by cloud services.
 
+The SQL scripts and queries that I used to create a login and add a database in Microsoft SQL Server Management Studio. The database is AdventureWorksLT2012, a sample database that contains data about a fictional company that sells bicycles and bicycle accessories. The database is used for learning and practicing SQL Server features and functionalities.
+
+## Steps
+- To create a login, I used the CREATE LOGIN statement with the name, password, and default database options. I also granted the login the db_owner role on the master database using the ALTER SERVER ROLE statement.
+- To add a database, downloaded the AdventureWorksLT2012.bak file from [Microsoft SQL Server Samples](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms).
+
+
 
