@@ -28,7 +28,7 @@ The SQL scripts and queries that I used to create a login and add a database in 
 
 ## Steps
 - To create a login, I used the CREATE LOGIN statement with the name, password, and default database options. I also granted the login the db_owner role on the master database using the ALTER SERVER ROLE statement.
-- To add a database, downloaded the AdventureWorksLT2012.bak file from [Microsoft SQL Server Samples](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms).
+- To add a database, downloaded the AdventureWorksLT2022.bak file from [Microsoft SQL Server Samples](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms).
 - Created username and password as secrets in keyvault
 - Created and configured a [self-hosted integration runtime](https://learn.microsoft.com/en-us/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory).
 
