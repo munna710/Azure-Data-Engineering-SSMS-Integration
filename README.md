@@ -22,7 +22,7 @@ The architecture consists of several components including an on-prem SQL Server 
 - **Azure Active Directory**: Offers identity and access management services to secure resources.
 - **Azure Key Vault**: Used to safeguard cryptographic keys and other secrets used by cloud services.
 - 
-##SQL Server
+## SQL Server
 ![ssms](https://github.com/munna710/Azure-Data-Engineering-SSMS-Integration/blob/main/images/ssms.png)
 The SQL scripts and queries that I used to create a login and add a database in Microsoft SQL Server Management Studio. The database is AdventureWorksLT2012, a sample database that contains data about a fictional company that sells bicycles and bicycle accessories. The database is used for learning and practicing SQL Server features and functionalities.
 
@@ -32,8 +32,8 @@ The SQL scripts and queries that I used to create a login and add a database in 
 - Created username and password as secrets in keyvault
 - Created and configured a [self-hosted integration runtime](https://learn.microsoft.com/en-us/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory).
 
-###Ingestion
-##Data Factory-copy-one-table
+### Ingestion
+## Data Factory-copy-one-table
 
 ![ADF](https://github.com/munna710/Azure-Data-Engineering-SSMS-Integration/blob/main/images/ADF.png)
 
@@ -43,7 +43,7 @@ The Azure Data Factory pipeline that I created to copy address table data from o
 - To configure the source and sink of the Copy Data activity, I used the New Dataset option and selected the **data lake storage gen2**and **parquet** format for each.
 - To run the pipeline, I used the Debug option and monitored the activity run in the Output window.
 
-##Data Factory-copy-all-tables
+## Data Factory-copy-all-tables
 
 ![ADF](https://github.com/munna710/Azure-Data-Engineering-SSMS-Integration/blob/main/images/copy-all-tables.png)
 the Azure Data Factory pipeline that I created to copy data from multiple tables in a source database to a data lake storage gen2. The pipeline uses the following activities:
