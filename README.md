@@ -68,6 +68,8 @@ the Azure Data Factory pipeline that I created to copy data from multiple tables
 ### Transformation
 - [Bronze to Silver](https://github.com/munna710/Azure-Data-Engineering-SSMS-Integration/blob/main/bronze%20to%20silver.ipynb)
 - [Silver to Gold](https://github.com/munna710/Azure-Data-Engineering-SSMS-Integration/blob/main/silver%20to%20gold.ipynb)
+- Run a Databricks notebook with the Databricks Notebook Activity in Azure Data Factory.
+- ![ADF](https://github.com/munna710/Azure-Data-Engineering-SSMS-Integration/blob/main/images/ADF-DB.png)
 
   
   
