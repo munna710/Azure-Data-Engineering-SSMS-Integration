@@ -104,3 +104,28 @@ the Azure Data Factory pipeline that I created to copy data from multiple tables
 - To monitor the pipeline, I used the Monitor option and viewed the activity runs in the List or Gantt view. I also exported the activity runs to a CSV file for further analysis.
 ![ADF](https://github.com/munna710/Azure-Data-Engineering-SSMS-Integration/blob/main/images/m3.png)
 ![ADF](https://github.com/munna710/Azure-Data-Engineering-SSMS-Integration/blob/main/images/m4.png)
+
+# Reporting
+## power bi
+
+![ADF](https://github.com/munna710/Azure-Data-Engineering-SSMS-Integration/blob/main/images/repoting.png)
+
+the Power BI dashboard that I created to report sales and customer data for the month of April. The dashboard uses various types of visualizations to display the data, such as bar graphs, pie charts, and lists. The dashboard also allows users to filter the data by state and view the gender classification of customers.
+
+## Steps
+- To create the dashboard, I used the Power BI Desktop app and imported the data from Azure synapse serverless sql pool .
+- To create the visualizations, I used the Visualizations pane and dragged and dropped the fields from the Fields pane to the Values, Axis, Legend, and Tooltip sections.
+- To create the filters, I used the Filters pane and selected the fields that I wanted to filter by, such as State and Product Category.
+
+# End-to-End pipeline testing
+
+![ADF](https://github.com/munna710/Azure-Data-Engineering-SSMS-Integration/blob/main/images/trigger.png)
+- The pipeline is triggered by a schedule that runs every day at 12:25 AM.
+- To create the trigger, I used the New trigger option and selected the Schedule type. I specified the start date and time, the time zone, and the recurrence for the trigger.
+- Inserted two rows for customer table in sql server.
+- The pipeline is triggered at 12:25 AM.
+- The pipeline run successfully
+- The values in the report changed.
+
+![ADF](https://github.com/munna710/Azure-Data-Engineering-SSMS-Integration/blob/main/images/report2.png)
+
